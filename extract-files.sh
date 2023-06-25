@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=surya-miuicamera
+DEVICE=sm6225-common-miuicamera
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -51,6 +51,14 @@ if [ -z "${SRC}" ]; then
 fi
 
 function blob_fixup() {
+    case "${1}" in
+        lib64/libgui-xiaomi.so)
+            patchelf --set-soname libgui-xiaomi.so "${2}"
+            ;;
+        lib64/libcamera_algoup_jni.xiaomi.so|lib64/libcamera_mianode_jni.xiaomi.so)
+            patchelf --replace-needed libgui.so libgui-xiaomi.so "${2}"
+            ;;
+    esac
 }
 
 # Initialize the helper

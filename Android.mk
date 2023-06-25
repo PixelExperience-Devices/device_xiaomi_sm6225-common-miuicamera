@@ -25,7 +25,7 @@ $(CAMERA_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@echo "MiuiCamera lib link: $@"
 	@mkdir -p $(dir $@)
 	@rm -rf $@
-	$(hide) ln -sf /system/lib64/$(notdir $@) $@
+	$(hide) ln -sf /lib64/$(notdir $@) $@
 
 ALL_DEFAULT_INSTALLED_MODULES += $(CAMERA_SYMLINKS)
 

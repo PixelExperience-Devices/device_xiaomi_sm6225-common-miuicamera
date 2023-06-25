@@ -49,24 +49,42 @@ vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so|55326adae329775eb8147b8c476d127
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so|dade9711628a2c670901a5f5903af80a44e53663
 vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so|cd52e318ded1951c029a5857ec848afb5266ea38
 
-# System - from MIUI
-system/etc/public.libraries-xiaomi.txt|a09ea720d0d058074b728c96ccdb1a755426041c
-
-# System - from CRdroid repository
+# System - from CR/PA repository
 lib64/android.hardware.camera.common@1.0.so|587fd9ac5502844a9904cdf39583ba9580578a3e
 lib64/libSNPE.so|f3ffab1527763de07abd6ea4889673574b3b1a48
 lib64/libarcsoft_single_chart_calibration.so|cb37de29857fe1703530de6e5a54038a9620ddcd
-lib64/libcamera_algoup_jni.xiaomi.so|116a0c7c3ff1a717664d41f722dc3b15c976f7be
-lib64/libcamera_mianode_jni.xiaomi.so|67ccf23811282e9a20b8e90199eb6c6a95d3cf6d
+lib64/libmicampostproc_client.so|8fbaa1c675fcc7b2271afe14865bada804541ef9
+lib64/libcamera_algoup_jni.xiaomi.so|09f384b71edd7c58160d9e075fd3895beff2596e
+lib64/libcamera_mianode_jni.xiaomi.so|83a03de7d80c97c1a8a1861e605f4a08a97cd755
 lib64/libdoc_photo.so|e09aa3436d3fe1a6e4b37d9a922eae0a78d1760e
 lib64/libdoc_photo_c++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
+lib64/libgui-xiaomi.so|3d1f1fc793fdfaadeca1f6912515ed5b8252410e
 lib64/libhidltransport.so|f5b73785c146d4ea206caf331f49b60a0f19800f
 lib64/libmotion_photo.so|1d58550ec98df90d585af82ede89db4d4504decd
 lib64/libmotion_photo_c++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
 lib64/libmotion_photo_mace.so|ab99cb01df8996ae250f718113bc97031f603a6f
 lib64/libsymphony-cpu.so|521e63af19b3fd51b12bb48f95b3f58a90068cc2
-priv-app/MiuiCamera/lib/arm64/libcamera_algoup_jni.xiaomi.so|9977bceb5d14e4906d83c23642e04b213337c08c
-priv-app/MiuiCamera/lib/arm64/libcamera_mianode_jni.xiaomi.so|5bfc999bb96aa6270a959316a7c866f6625ecc32
+lib64/vendor.xiaomi.hardware.campostproc@1.0.so|203cdbc15cb05cd9b8ee05ff70a36e362b4c26ea
+priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Aperture,GoogleCameraGo,Camera2;PRESIGNED|0bf77690b95d3161535587624bd920f41d320d18
+priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_skel.so|8d08e8403fcb2b654ab34fc69859f126ff28214c
+priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_domains_v2.so|7b2aa3976134b2acef655fc2b93e2bf1ac3434ff
+priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so|d724f312d2f9519393c967b64f0a41d61d284e4a
+priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so|4659105d1ca963ddfab1560e21009107b8cc520d
 
-# MiuiCamera - from LEICA
-priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Aperture,GoogleCameraGo,Camera2;PRESIGNED|056ef492eb518c0ecf0bcf6cfe794e94a40c1f43
+# photo
+priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk;PRESIGNED
+priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo.so
+priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo_c++_shared.so
+priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_dualcam_refocus.so
+priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting.so
+priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting_c.so
+priv-app/MiuiExtraPhoto/lib/arm64/libgallery_mpbase.so
+priv-app/MiuiExtraPhoto/lib/arm64/libmibokeh_gallery.so
+priv-app/MiuiExtraPhoto/lib/arm64/libmisr.so
+priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo.so
+priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_c++_shared.so
+priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_mace.so
+priv-app/MiuiExtraPhoto/lib/arm64/librefocus.so
+priv-app/MiuiExtraPhoto/lib/arm64/librefocus_mibokeh.so
+priv-app/MiuiExtraPhoto/lib/arm64/libselection.so
+

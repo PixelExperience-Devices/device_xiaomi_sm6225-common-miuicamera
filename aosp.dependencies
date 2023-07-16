@@ -1,0 +1,8 @@
+[
+   {
+       "remote"      : "pixel-devices-blobs",
+       "repository"  : "vendor_xiaomi_sm6225-common-miuicamera",
+       "target_path" : "vendor/xiaomi/sm6225-common-miuicamera",
+       "branch"      : "thirteen"
+   }
+]

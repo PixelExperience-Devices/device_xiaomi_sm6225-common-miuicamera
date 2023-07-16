@@ -65,14 +65,10 @@ lib64/libmotion_photo_c++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
 lib64/libmotion_photo_mace.so|ab99cb01df8996ae250f718113bc97031f603a6f
 lib64/libsymphony-cpu.so|521e63af19b3fd51b12bb48f95b3f58a90068cc2
 lib64/vendor.xiaomi.hardware.campostproc@1.0.so|203cdbc15cb05cd9b8ee05ff70a36e362b4c26ea
-priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Aperture,GoogleCameraGo,Camera2;PRESIGNED|0bf77690b95d3161535587624bd920f41d320d18
 priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_skel.so|8d08e8403fcb2b654ab34fc69859f126ff28214c
 priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_domains_v2.so|7b2aa3976134b2acef655fc2b93e2bf1ac3434ff
 priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so|d724f312d2f9519393c967b64f0a41d61d284e4a
 priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so|4659105d1ca963ddfab1560e21009107b8cc520d
-
-# photo
-priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk;PRESIGNED
 priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo.so
 priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo_c++_shared.so
 priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_dualcam_refocus.so
@@ -88,3 +84,6 @@ priv-app/MiuiExtraPhoto/lib/arm64/librefocus.so
 priv-app/MiuiExtraPhoto/lib/arm64/librefocus_mibokeh.so
 priv-app/MiuiExtraPhoto/lib/arm64/libselection.so
 
+# MiuiCamera - From MIUI
+priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Aperture,GoogleCameraGo,Camera2;PRESIGNED|0bf77690b95d3161535587624bd920f41d320d18
+priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk;PRESIGNED
